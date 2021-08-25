@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Bank</title>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="mx-auto w-72" src="./images/logo.png" alt="">
+        </div>
+        <h1 class="text-5xl text-center font-bold capitalize mt-5">welcome to my <span class="text-pink-800">creative bank</span></h1>
+    </header>
+    <main>
+        <div class="login-form mx-auto lg:w-3/5 md:w-full bg-blue-200 mt-5 p-8 rounded">
+            <div>
+                <input id="user-email" class="mb-5 w-3/4 p-2 rounded outline-none" type="text" placeholder="Enter Your Email">
+                <input id="user-password" class="block mb-5 w-3/4 p-2 rounded outline-none" type="password" placeholder="Enter Your Password">
+                <button id="login-btn" class="bg-blue-500 py-2 px-5 text-white text-2xl tracking-widest rounded">Login</button>
+                <p id="hidden-text" class="text-red-600 mt-2 text-lg hidden">Something wrong,Please again submit!!</p>
+            </div>
+        </div>
+    </main>
+    <!-- custom js -->
+    <script src="js/login.js"></script>
+</body>
+</html>
